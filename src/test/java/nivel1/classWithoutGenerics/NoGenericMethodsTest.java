@@ -15,17 +15,17 @@ class NoGenericMethodsTest {
     }
 
     @Test
-    void getPhrase1ReturnsFirstArgument() {
+    void getElement1ReturnsFirstArgument() {
         assertEquals("apple", fruits.getElement1());
     }
 
     @Test
-    void getPhrase2ReturnsSecondArgument() {
+    void getElement2ReturnsSecondArgument() {
         assertEquals("pear", fruits.getElement2());
     }
 
     @Test
-    void getPhrase3ReturnsThirdArgument() {
+    void getElement3ReturnsThirdArgument() {
         assertEquals("orange", fruits.getElement3());
     }
 
