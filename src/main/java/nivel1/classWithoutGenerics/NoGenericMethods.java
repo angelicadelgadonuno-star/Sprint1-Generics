@@ -6,10 +6,10 @@ public class NoGenericMethods {
     private String element2;
     private String element3;
 
-    public NoGenericMethods(String phrase1, String phrase2, String phrase3) {
-        this.element1 = phrase1;
-        this.element2 = phrase2;
-        this.element3 = phrase3;
+    public NoGenericMethods(String element1, String element2, String element3) {
+        this.element1 = element1;
+        this.element2 = element2;
+        this.element3 = element3;
     }
 
     public String getElement1() {
