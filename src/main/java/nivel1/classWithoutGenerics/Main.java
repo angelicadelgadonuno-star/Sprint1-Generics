@@ -5,14 +5,14 @@ public class Main {
 
         System.out.println("--- Primer Objeto ---");
         NoGenericMethods elements = new NoGenericMethods("element1", "element2", "element3");
-        System.out.println(elements.getPhrase1());
-        System.out.println(elements.getPhrase2());
-        System.out.println(elements.getPhrase3() + "\n");
+        System.out.println(elements.getElement1());
+        System.out.println(elements.getElement2());
+        System.out.println(elements.getElement3());
 
         System.out.println("--- Segundo Objeto ---");
         NoGenericMethods elementsTwo = new NoGenericMethods("element3", "element1", "element2");
-        System.out.println(elementsTwo.getPhrase1());
-        System.out.println(elementsTwo.getPhrase2());
-        System.out.println(elementsTwo.getPhrase3());
+        System.out.println(elementsTwo.getElement1());
+        System.out.println(elementsTwo.getElement2());
+        System.out.println(elementsTwo.getElement3());
     }
 }
