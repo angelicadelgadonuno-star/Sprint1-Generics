@@ -126,8 +126,14 @@ This sprint was done as a learning exercise.
 The Git history reflects that.
 
 Some commits mix several changes, and some important steps are not
-visible as separate commits. For example, the failed attempt with
-`<String, U, V>` before the fix is not traceable as its own commit.
+visible as separate commits. Examples:
+
+- A failed attempt with `<String, U, V>` before the fix is not traceable
+  as its own commit.
+- A small refactor of Main output messages was left uncommitted for a
+  while, and is not traceable as part of the sprint flow.
+- A commit message refers to internal exercise numbers instead of
+  describing the change.
 
 Lessons for the next sprint:
 
